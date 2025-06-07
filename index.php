@@ -141,10 +141,27 @@ class Car {
         return "Car model: " . $this->model . ", Color: " . $this->color;
     }
 }
-
-
 // how many ways to create object in php
 
+
+// function in php 
+// what is function and why use function ??
+function greet($name) { // function definition
+    return "Hello, " . $name . "!"; // function body
+}
+
+// calling the function
+echo greet("Muhammad"); // outputs: Hello, Muhammad!
+
+
+// function without return keyword
+
+function add($x, $y) {
+    $sum = $x + $y;
+    echo "The sum of $x and $y is: $sum";
+}
+
+add(5, 10);
 
 
 ?>
